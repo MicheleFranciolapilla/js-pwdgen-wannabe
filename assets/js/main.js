@@ -14,4 +14,7 @@ console.log(cognome);
 const   colore= prompt("Inserire il colore preferito");
 console.log(colore);
 
-document.writeln(`La tua password è la seguente: ${nome}${cognome}${colore}21`);
+const   password= nome+cognome+colore+"21";
+console.log(password)
+
+document.writeln(`La tua password è la seguente: ${password}`);
