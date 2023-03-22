@@ -10,5 +10,5 @@ const   cognome= prompt("Inserire il proprio cognome");
 const   colore= prompt("Inserire il colore preferito");
 const   password= nome+cognome+colore+"21";
 
-document.getElementById('output').innerText= `La tua password personalizzata è: ${password}`;
+document.getElementById('output').innerHTML= `<h2>La tua password personalizzata è: ${password}</h2>`;
 // document.writeln(`La tua password è la seguente: ${password}`);
