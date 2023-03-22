@@ -6,15 +6,9 @@
 // - Scrivere sulla pagina la password NomeCognomeColorePreferito21
 
 const   nome= prompt("Inserire il proprio nome");
-console.log(nome);
-
 const   cognome= prompt("Inserire il proprio cognome");
-console.log(cognome);
-
 const   colore= prompt("Inserire il colore preferito");
-console.log(colore);
-
 const   password= nome+cognome+colore+"21";
-console.log(password)
 
-document.writeln(`La tua password è la seguente: ${password}`);
+document.getElementById('output').innerText= `La tua password personalizzata è: ${password}`;
+// document.writeln(`La tua password è la seguente: ${password}`);
