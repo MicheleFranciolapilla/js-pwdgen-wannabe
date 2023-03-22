@@ -1,5 +1,21 @@
+h1
+{
+    text-align: left;
+    color: blue;
+}
+
 h2
 {
-    color: yellowgreen;
-    background-color: darkblue;
+    padding: 1rem;
+    color: black;
+}
+
+.giallo
+{
+    color: yellow;
+}
+
+#id_red
+{
+    background-color: red;
 }
