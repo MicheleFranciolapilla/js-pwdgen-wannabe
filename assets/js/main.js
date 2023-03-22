@@ -5,6 +5,8 @@
 // 3) Colore preferito
 // - Scrivere sulla pagina la password NomeCognomeColorePreferito21
 
+alert("Premi OK quando sei pronto ad iniziare questa impresa SUPER IMPEGNATIVA...")
+
 const   nome= prompt("Inserire il proprio nome");
 const   cognome= prompt("Inserire il proprio cognome");
 const   colore= prompt("Inserire il colore preferito");
